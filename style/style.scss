@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header#header {
+  background-color: #1e293b;
+  .container-fluid > .row > #headerContent {
+    margin: 6px 0;
+    h1#logo {
+      color: #fff;
+      font-size: 34px;
+    }
+
+    nav#navbar > ul {
+      margin-bottom: 0 !important;
+      li {
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          padding: 10px 0px 10px 30px;
+          font-weight: 700;
+          font-size: 14px;
+          font-family: sans-serif;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
